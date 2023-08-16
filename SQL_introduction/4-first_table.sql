@@ -1,5 +1,6 @@
 -- This script creates a table called first_table in the specified database.
-
+DROP DATABASE IF EXISTS hbtn_test_db_4;
+CREATE DATABASE IF NOT EXISTS hbtn_test_db_4;
 -- Replace 'hbtn_test' with the actual database name when running the script
 USE hbtn_test_db_4;
 
